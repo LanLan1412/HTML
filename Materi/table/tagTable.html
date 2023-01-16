@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <title>Latihan 2</title>
+</head>
+
+<body>
+    <h1>Belajar Atribut Rules dalam Tabel HTML</h1>
+    <table border="1">
+        <caption>Border = "1"</caption>
+        <tr>
+            <th>Judul 1</th>
+            <th>Judul 2</th>
+            <th>Judul 3</th>
+        </tr>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+            <td>Baris 1, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+            <td>Baris 2, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 3, Kolom 1</td>
+            <td>Baris 3, Kolom 2</td>
+            <td>Baris 3, Kolom 3</td>
+        </tr>
+    </table>
+    <table rules="rows">
+        <caption>Menggunakan Rules:"rows"</caption>
+        <tr>
+            <th>Judul 1</th>
+            <th>Judul 2</th>
+            <th>Judul 3</th>
+        </tr>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+            <td>Baris 1, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+            <td>Baris 2, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 3, Kolom 1</td>
+            <td>Baris 3, Kolom 2</td>
+            <td>Baris 3, Kolom 3</td>
+        </tr>
+    </table>
+    <table rules="cols">
+        <caption>Menggunakan Rules:"cols"</caption>
+        <tr>
+            <th>Judul 1</th>
+            <th>Judul 2</th>
+            <th>Judul 3</th>
+        </tr>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+            <td>Baris 1, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+            <td>Baris 2, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 3, Kolom 1</td>
+            <td>Baris 3, Kolom 2</td>
+            <td>Baris 3, Kolom 3</td>
+        </tr>
+    </table>
+    <table rules="all">
+        <caption>Menggunakan Rules:"all"</caption>
+        <tr>
+            <th>Judul 1</th>
+            <th>Judul 2</th>
+            <th>Judul 3</th>
+        </tr>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+            <td>Baris 1, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+            <td>Baris 2, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 3, Kolom 1</td>
+            <td>Baris 3, Kolom 2</td>
+            <td>Baris 3, Kolom 3</td>
+        </tr>
+    </table>
+    <table rules="all" border="1">
+        <caption>Menggunakan Rules:"all"</caption>
+        <tr>
+            <th>Judul 1</th>
+            <th>Judul 2</th>
+            <th>Judul 3</th>
+        </tr>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+            <td>Baris 1, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+            <td>Baris 2, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 3, Kolom 1</td>
+            <td>Baris 3, Kolom 2</td>
+            <td>Baris 3, Kolom 3</td>
+        </tr>
+    </table>
+    <table rules="none" border="1">
+        <caption>Menggunakan Rules:"none dan border"</caption>
+        <tr>
+            <th>Judul 1</th>
+            <th>Judul 2</th>
+            <th>Judul 3</th>
+        </tr>
+        <tr>
+            <td>Baris 1, Kolom 1</td>
+            <td>Baris 1, Kolom 2</td>
+            <td>Baris 1, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 2, Kolom 1</td>
+            <td>Baris 2, Kolom 2</td>
+            <td>Baris 2, Kolom 3</td>
+        </tr>
+        <tr>
+            <td>Baris 3, Kolom 1</td>
+            <td>Baris 3, Kolom 2</td>
+            <td>Baris 3, Kolom 3</td>
+        </tr>
+    </table>
+    
+        <h2>atrribute rowspan dan colspan</h2>
+        <p></p>
+        <table border="1">
+            <caption>Nilai siswa</caption>
+            <tr>
+                <td rowspan="2">Nama</td>
+                <td colspan="3">Nilai</td>
+            </tr>
+            <tr>
+                <td bgcolor="#ddd">Kimia</td>
+                <td bgcolor="#ddd">FIsika</td>
+                <td bgcolor="#ddd">Biologi</td>
+            </tr>
+            <tr>
+                <td>rendi</td>
+                <td bgcolor="green">75</td>
+                <td bgcolor="green">77</td>
+                <td bgcolor="green">80</td>
+            </tr>
+            <tr>
+                <td>Robby</td>
+                <td bgcolor="green">89</td>
+                <td bgcolor="green">75</td>
+                <td bgcolor="green">80</td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Zakwan</td>
+                <td bgcolor="red">23</td>
+                <td bgcolor="red">42</td>
+                <td bgcolor="red">50</td>
+            </tr>
+        </table>
+		<table rules="all" border="1" cellpadding="5">
+            <tr>
+                <td colspan="2">satu</td>
+                <td rowspan="2" width="50" align="center"	>dua</td>
+            </tr>
+            <tr>
+                <td>tiga</td>
+                <td>empat</td>
+            </tr>
+        </table>
+		<br>
+		<table rules="all" border="1" cellpadding="5">
+            <tr>
+                <td rowspan="3">satu</td>
+                <td colspan="2" align="center">dua</td>
+            </tr>
+            <tr>
+                <td>tiga</td>
+                <td>empat</td>
+            </tr>
+			<tr>
+				<td colspan="2" align="center">lima</td>
+			</tr>
+        </table>
+		
+		<br>
+		
+		<table rules="all" border="1" cellpadding="5">
+            <tr>
+                <td rowspan="3">satu</td>
+                <td>dua</td>
+                <td rowspan="3">tiga</td>
+            </tr>
+            <tr>
+                <td>empat</td>
+            </tr>
+			<tr>
+				<td>lima</td>
+			</tr>
+        </table>
+		
+		<br>
+		
+		<table rules="all" border="1" cellpadding="5">
+            <tr>
+                <td>satu</td>
+                <td>dua</td>
+                <td>tiga</td>
+            </tr>
+            <tr>
+                <td rowspan="2">empat</td>
+				<td>lima</td>
+				<td>enam</td>
+            </tr>
+			<tr>
+				<td colspan="2">tujuh</td>
+			</tr>
+			<tr>
+				<td>delapan</td>
+				<td rowspan="2" colspan="3">sembilan</td>
+			</tr>
+			<tr>
+				<td>sepuluh</td>
+			</tr>
+        </table>
+</body>
+
+</html>
+</body>
